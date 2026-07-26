@@ -1,93 +1,40 @@
 # Gochelicious HubSpot CRM Implementation
 
+A practical CRM implementation project demonstrating business analysis, CRM configuration, sales process optimization, and customer relationship management using **HubSpot CRM** for a growing catering business.
+
+---
+
 ## Project Overview
 
-This project demonstrates the implementation of HubSpot CRM for **Gochelicious**, a catering business, to improve customer relationship management, streamline the sales process, and centralize business operations. The implementation focused on configuring HubSpot's core CRM features, documenting business processes, designing reusable templates, and creating standardized workflows to support consistent customer engagement from initial inquiry through post-event follow-up.
+This project demonstrates the implementation of HubSpot CRM for **Gochelicious**, a catering business, to improve customer relationship management, streamline the sales process, and centralize business operations.
+
+The implementation focused on configuring HubSpot's core CRM features, documenting business processes, designing reusable templates, and creating standardized workflows to support customer engagement from initial enquiry through post-event follow-up.
 
 ---
 
 ## Business Background
 
-Gochelicious provides catering services for corporate events, private functions, and special occasions. As customer enquiries and event bookings increased, managing contacts, quotations, and sales activities manually became inefficient. The business required a centralized CRM solution that would improve visibility into sales opportunities, standardize customer communication, and support business growth.
+Gochelicious provides catering services for corporate events, private functions, and special occasions. As customer enquiries and bookings increased, managing customer information manually became inefficient.
 
-HubSpot CRM was selected because it provides contact management, deal tracking, customizable properties, dashboards, and reporting capabilities suitable for a growing service-based business.
+HubSpot CRM was implemented to centralize customer records, standardize sales activities, improve reporting, and establish scalable business processes.
 
 ---
 
 ## Project Objectives
 
-The implementation aimed to:
-
-- Centralize customer and company records.
-- Configure a structured sales pipeline.
-- Create custom deal properties for catering operations.
-- Standardize customer communications.
-- Document repeatable business workflows.
-- Improve reporting and sales visibility.
-- Build a scalable CRM foundation for future automation.
+- Centralize customer and company information
+- Configure a structured sales pipeline
+- Create catering-specific custom properties
+- Standardize customer communication
+- Improve sales reporting
+- Document CRM workflows
+- Build a scalable CRM foundation
 
 ---
 
 ## Solution Overview
 
-The implementation covered the complete CRM lifecycle, including:
-
-- Contact, Company, and Deal Management
-- Sales Pipeline Configuration
-- Custom Deal Properties
-- CRM Dashboard
-- Custom Reports
-- Business Documentation
-- Customer Communication Templates
-- Workflow Design
-
-Although the HubSpot Free plan does not support workflow automation, the workflows were fully documented as implementation guides for future upgrades.
-
----
-
-# Project Gallery
-
-## Sales Pipeline Dashboard
-
-The sales dashboard provides visibility into active opportunities, pipeline performance, and sales activities, helping the business monitor progress and make informed decisions.
-
-![Sales Pipeline Dashboard](02-screenshots/08-sales-pipeline-dashboard.png)
-
----
-
-## Custom Deal Properties
-
-Custom deal properties were created to capture catering-specific information such as event dates and operational details required for planning and reporting.
-
-![Custom Deal Properties](02-screenshots/07-custom-deal-properties-populated.png)
-
----
-
-## Contact, Company & Deal Management
-
-HubSpot associations were configured to connect contacts, companies, and deals, providing a complete view of each customer's journey.
-
-![Deal Association](02-screenshots/04-deal-contact-association.png)
-
----
-
-## Event Date Property
-
-A custom **Event Date** property was configured to support event scheduling, planning, and reporting for catering engagements.
-
-![Event Date Property](02-screenshots/06-event-date-property.png)
-
----
-
-## Custom Reports
-
-Custom reports were configured to provide business insights into sales performance and support data-driven decision-making.
-
-![Custom Reports](02-screenshots/09-custom-reports-list.png)
-
----
-
-## HubSpot Features Implemented
+The implementation included:
 
 - Contact Management
 - Company Management
@@ -97,8 +44,124 @@ Custom reports were configured to provide business insights into sales performan
 - Contact & Company Associations
 - CRM Dashboard
 - Custom Reports
-- Business Templates
+- Email Templates
 - Workflow Documentation
+
+Although HubSpot Free does not support workflow automation, complete workflow documentation was produced to support future upgrades.
+
+---
+
+# Project Gallery
+
+## Sales Performance & Reporting
+
+The CRM dashboard and reporting tools provide visibility into the sales pipeline, deal progress, and overall business performance.
+
+<table>
+<tr>
+<td align="center" width="50%">
+
+### Sales Dashboard
+
+<img src="02-screenshots/08-sales-pipeline-dashboard.png" width="420">
+
+</td>
+
+<td align="center" width="50%">
+
+### Custom Reports
+
+<img src="02-screenshots/09-custom-reports-list.png" width="420">
+
+</td>
+</tr>
+</table>
+
+---
+
+## Customer & Deal Management
+
+HubSpot associations connect contacts, companies, and opportunities, giving the business a complete view of every customer's journey.
+
+<table>
+<tr>
+<td align="center" width="50%">
+
+### Deal & Contact Association
+
+<img src="02-screenshots/04-deal-contact-association.png" width="420">
+
+</td>
+
+<td align="center" width="50%">
+
+### Deal & Company Association
+
+<img src="02-screenshots/05-deal-company-association.png" width="420">
+
+</td>
+</tr>
+</table>
+
+---
+
+## Custom CRM Configuration
+
+Custom properties were configured to capture business-specific information required for event planning and operational reporting.
+
+<table>
+<tr>
+<td align="center" width="50%">
+
+### Event Date Property
+
+<img src="02-screenshots/06-event-date-property.png" width="420">
+
+</td>
+
+<td align="center" width="50%">
+
+### Custom Deal Properties
+
+<img src="02-screenshots/07-custom-deal-properties-populated.png" width="420">
+
+</td>
+</tr>
+</table>
+
+---
+
+## Creating CRM Records
+
+The implementation supports consistent creation of contacts, companies, and sales opportunities to ensure complete customer records.
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+### Deal
+
+<img src="02-screenshots/01-create-deal-form.png" width="260">
+
+</td>
+
+<td align="center" width="33%">
+
+### Company
+
+<img src="02-screenshots/02-create-company-form.png" width="260">
+
+</td>
+
+<td align="center" width="33%">
+
+### Contact
+
+<img src="02-screenshots/03-create-contact-form.png" width="260">
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -108,22 +171,23 @@ Custom reports were configured to provide business insights into sales performan
 hubspot-crm-business-implementation/
 
 ├── 01-documentation/
-│   ├── Business requirements
-│   ├── CRM configuration
-│   ├── Sales pipeline
-│   ├── Custom deal properties
-│   ├── Dashboard
+│   ├── Business Requirements
+│   ├── CRM Configuration
+│   ├── Sales Pipeline
+│   ├── Custom Properties
+│   ├── Dashboard Configuration
 │   └── Reports
 │
 ├── 02-screenshots/
-│   └── Implementation screenshots
+│   └── CRM implementation screenshots
 │
 ├── 03-templates/
-│   ├── Sales email templates
-│   ├── Follow-up templates
-│   ├── Meeting template
-│   ├── Customer onboarding template
-│   └── Proposal template
+│   ├── Initial Inquiry Template
+│   ├── Follow-up Email
+│   ├── Event Confirmation
+│   ├── Deposit Reminder
+│   ├── Consultation Meeting
+│   └── Proposal Template
 │
 ├── 04-workflows/
 │   ├── Lead Qualification Workflow
@@ -139,16 +203,17 @@ hubspot-crm-business-implementation/
 
 ## Project Walkthrough
 
-The implementation followed a structured CRM deployment process:
+The implementation followed a structured deployment process:
 
 1. Gather business requirements.
-2. Configure contacts, companies, and deals.
+2. Configure CRM records.
 3. Design the sales pipeline.
-4. Create custom deal properties.
-5. Configure dashboards and reports.
-6. Develop reusable communication templates.
-7. Document business workflows.
-8. Capture implementation evidence through screenshots.
+4. Create custom properties.
+5. Configure dashboards.
+6. Build custom reports.
+7. Develop reusable templates.
+8. Document business workflows.
+9. Capture implementation evidence through screenshots.
 
 ---
 
@@ -158,9 +223,9 @@ The implementation followed a structured CRM deployment process:
 - CRM Configuration Documentation
 - Sales Pipeline Design
 - Custom Deal Properties
-- Dashboard Configuration
-- Custom Reports
-- Business Templates
+- CRM Dashboard
+- Business Reports
+- Customer Communication Templates
 - Workflow Documentation
 - Implementation Screenshots
 
@@ -168,25 +233,26 @@ The implementation followed a structured CRM deployment process:
 
 ## Business Outcomes
 
-This implementation enabled Gochelicious to:
+The implementation provides:
 
-- Centralize customer information.
-- Standardize the sales process.
-- Improve pipeline visibility.
-- Enhance reporting capabilities.
-- Maintain consistent customer communication.
-- Establish documented workflows for future automation.
-- Build a scalable CRM foundation for business growth.
+- Centralized customer information
+- Improved sales visibility
+- Standardized business processes
+- Better customer relationship management
+- Improved reporting
+- Consistent communication
+- Scalable CRM documentation
+- Foundation for future workflow automation
 
 ---
 
 ## Lessons Learned
 
-- Successful CRM implementations begin with clearly defined business requirements.
-- Standardized processes improve user adoption and reporting accuracy.
-- Custom properties produce more meaningful business insights.
-- Documentation and reusable templates improve consistency.
-- Well-designed workflows simplify future CRM automation.
+- CRM implementations should begin with clearly defined business requirements.
+- Well-designed custom properties improve reporting quality.
+- Standardized sales processes improve user adoption.
+- Documentation is as valuable as system configuration.
+- Workflow planning simplifies future automation.
 
 ---
 
@@ -194,16 +260,15 @@ This implementation enabled Gochelicious to:
 
 Future improvements may include:
 
-- Workflow automation using HubSpot Professional.
-- Automated email sequences.
-- Lead scoring.
-- Customer satisfaction surveys.
-- Task automation.
-- Advanced executive dashboards.
-- Integration with payment and event management platforms.
+- Workflow Automation
+- Email Automation
+- Lead Scoring
+- Customer Satisfaction Surveys
+- Advanced Dashboards
+- Task Automation
+- Third-party Integrations
 
 ---
-This repository was developed as a portfolio project demonstrating practical CRM implementation, business analysis, process documentation, and customer relationship management using HubSpot CRM.
 
 ## Author
 
