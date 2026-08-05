@@ -270,6 +270,13 @@ Future improvements may include:
 
 ---
 
+## Live Repository
+
+Explore the complete implementation, documentation, screenshots, templates, and workflow designs on GitHub.
+
+🔗 Repository:
+https://github.com/cbmaduka/hubspot-crm-business-implementation
+
 ## Author
 
 **Chika Blessing**
